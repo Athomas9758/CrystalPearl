@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;  /* Ensure the body and html fill the viewport height */
+}
+
+body {
+    font-family: "Sofia", cursive;
+    background-color: #F9E0E0;
+    display: flex;
+    flex-direction: column;  /* Stack the sections vertically */
+}
+
+/* Header Styles */
+.site-header {
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* Stacks the logo and navigation vertically */
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    height: 200px; /* Adjust height to fit both logo and navigation */
+}
+
+/* Logo Styles */
+.logo img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 50%; /* Rounds the logo image */
+    margin-bottom: 10px; /* Adds space between the logo and the navigation */
+}
+
+/* Navigation Styles */
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #EA9C98;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.nav a:hover {
+    color: #41BCE5;  /* Can change colour of blue */
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+/* Carousel Styles */
+.carousel {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.carousel img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Footer Styles */
+#footer {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+    color: #EA9C98;
+    margin-top: auto;  /* Push the footer to the bottom */
+}
+
+#footer ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Optional: centers the list inside the footer */
+    color: #EA9C98;
+}
+
+#footer li {
+    display: inline; /* Make the list items appear horizontally */
+    margin-right: 15px; /* Adds space between the items */
+}
+
+#footer a {
+    text-decoration: none; /* Remove underline from links */
+    color: #EA9C98; /* Change to desired link color */
+    font-size: 16px; /* Adjust the size as needed */
+}
+
+#footer a:hover {
+    color: #41BCE5;  /* Can change colour of blue */
+}
+
+#social-media a {
+    text-decoration: none;
+    color: #EA9C98;
+    font-size: 16px;
+}
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* space between links */
+    flex-wrap: wrap; /* makes it responsive */
+    padding: 10px 0;
+}
+
+
+
