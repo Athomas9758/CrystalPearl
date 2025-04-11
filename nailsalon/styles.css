@@ -134,5 +134,31 @@ body {
     padding: 10px 0;
 }
 
-
+/* Services */
+.services-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff0f6; /* light pink */
+    font-family: 'Sofia', cursive;
+  }
+  
+  .services-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #c71585; /* deep pink/purple */
+  }
+  
+  .services-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .services-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1em;
+  }
+  
 
